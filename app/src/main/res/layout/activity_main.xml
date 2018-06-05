@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#424242">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HOME PAGE"
+        android:textSize="55sp"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:fontFamily="monospace"/>
+
+    <ImageView
+        android:layout_width="80pt"
+        android:layout_height="80pt"
+        android:src="@mipmap/poltekpos"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="#FFFFFF"
+        android:text="Login"
+        android:textSize="20dp"
+        android:background="#F4511E"
+        android:id="@+id/btnLogin"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:textSize="20sp"
+        android:fontFamily="monospace"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="#FFFFFF"
+        android:text="Register"
+        android:textSize="20dp"
+        android:background="#F4511E"
+        android:id="@+id/btnRegis"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Created by :"
+        android:textAlignment="center"
+        android:fontFamily="monospace"
+        android:textColor="#FFFFFF"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fikri_aldi_nugraha_yogi_aditya_saputra"
+            android:textAlignment="center"
+            android:layout_margin="10dp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="monospace"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/_1164038_1164060"
+        android:textColor="#FFFFFF"
+        android:fontFamily="monospace"/>
+
+</LinearLayout>
